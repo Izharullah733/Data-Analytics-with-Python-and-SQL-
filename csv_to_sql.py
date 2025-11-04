@@ -29,7 +29,7 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 # Folder containing the CSV files
-folder_path = r'D:\Projects\Data Analytics Project with Python and SQL\drive-download-20251101T162801Z-1-001'
+folder_path = r'D:\Projects\Data Analytics Project with Python and SQL'
 
 def get_sql_type(dtype):
     if pd.api.types.is_integer_dtype(dtype):
