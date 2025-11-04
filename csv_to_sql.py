@@ -23,8 +23,8 @@ csv_files = [
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='12345Ik&',
-    database='ecommerce'
+    password='give your password',
+    database='give name of your database'
 )
 cursor = conn.cursor()
 
