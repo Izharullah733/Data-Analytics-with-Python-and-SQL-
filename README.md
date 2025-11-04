@@ -39,10 +39,10 @@ order_items: Items included in each order.
 
 products: Product details and categories.
 
-🔍 Analytical Queries
+# 🔍 Analytical Queries
 The project is structured around solving the following three tiers of queries (details are in the [PLACEHOLDER: e.g., queries/analytical_queries.sql] file and Python notebooks):
 
-#Basic Queries
+# Basic Queries
 List all unique cities where customers are located.
 
 Count the number of orders placed in 2017.
@@ -53,7 +53,7 @@ Calculate the percentage of orders that were paid in installments.
 
 Count the number of customers from each state.
 
-#Intermediate Queries
+# Intermediate Queries
 Calculate the number of orders per month in 2018.
 
 Find the average number of products per order, grouped by customer city.
